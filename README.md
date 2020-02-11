@@ -160,9 +160,10 @@ server.cron(() => {
 
 const server = require('@fwd/server')
 
+// returns timestamp
 server.timestamp()
 
-// Change format
+// returns timestamp formatted
 server.timestamp('LL')
 
 ```
@@ -175,7 +176,7 @@ server.timestamp('LL')
 const server = require('@fwd/server')
 
 server.uuid()
-// uuid v4
+// returns uuid v4
 
 ```
 
@@ -186,7 +187,7 @@ server.uuid()
 const server = require('@fwd/server')
 
 server.time(1, 'hour')
-// 3600000
+// returns 3600000
 
 ```
 
