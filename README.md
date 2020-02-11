@@ -126,7 +126,7 @@ server.uuid()
 const server = require('@fwd/server')
 
 server.time(1, 'hour')
-// uuid v4
+// 3600000
 
 ```
 
