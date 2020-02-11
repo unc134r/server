@@ -140,7 +140,7 @@ For questions and support, [ask on StackOverflow](https://stackoverflow.com/ques
 
 ## Contributing
 
-WE NEED HELP!
+We need help. We only accept critique in the form of merge requests :)
 
 ## License
 
