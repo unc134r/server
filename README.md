@@ -87,6 +87,10 @@ server.cron(() => {
   console.log("I'm four hours older, woohoo!")
 }, "every 4 hours")
 
+server.cron(() => {
+  console.log("A minute later...")
+}, "every 1 minute")
+
 ```
 
 ### Timestamp
