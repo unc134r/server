@@ -68,12 +68,14 @@ const server = require('@fwd/server')
 // Store
 server.cache('saying', "wubba lubba dub dub")
 // OR
+
 // Store With Expiration
-server.cache('key', value, 10000)
+server.cache('otherSaying', 'oh geez rick', 10000)
 
 // Get
 server.cache('saying')
 /// wubba lubba dub dub
+
 
 ```
 
