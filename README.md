@@ -138,10 +138,6 @@ For questions and support, [ask on StackOverflow](https://stackoverflow.com/ques
 
 - Creator, [Send Us A Message](https://forward.miami).
 
-And get in touch with the maintainers!
-
-- [Forward Miami](hello@forward.miami)
-
 ## Contributing
 
 WE NEED HELP!
