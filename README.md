@@ -30,7 +30,7 @@
 
 ## What is it
 
-<p>The tagline up there may have exagerated a bit. All this package is a wrapper for other npm packages nicely wrapped in a decent API. </p>
+<p>The tagline up there may have exaggerated a bit. All this package is a wrapper for other npm packages nicely wrapped in a decent API.</p>
 
 ## Use Case
 
