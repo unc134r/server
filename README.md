@@ -31,7 +31,7 @@
 ## Install
 
 ```javascript
-// npm i @fwd/server
+npm i @fwd/server
 ```
 
 
