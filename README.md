@@ -28,6 +28,19 @@
   <a href="https://www.npmjs.com/package/@fwd/server">NPM Package</a>
 </div>
 
+## What is it
+
+<p>The tagline up there may have exagerated a bit. All this package is a wrapper for other npm packages nicely wrapped in a decent API. </p>
+
+## Use Case
+
+Creating quick static hosting servers. And we mean really quick. 
+
+## Contribute
+
+We're looking for help maintaning, improving and organizing this package. 
+
+
 ## Install
 
 ```javascript
