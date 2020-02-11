@@ -50,7 +50,52 @@ npm i @fwd/server
 
 ## Usage
 
-### Basic Server
+
+### Serve Static Files
+
+```javascript
+
+const server = require('@fwd/server')
+
+// files will be served from ./public
+
+server.start(80, __dirname)
+
+```
+
+### GET Request
+
+```javascript
+
+const server = require('@fwd/server')
+
+server.get('/', (req, res) => {
+  res.send("Hey, Sexy!")
+})
+
+server.start(80, __dirname)
+
+```
+
+
+### POST Request
+
+```javascript
+
+const server = require('@fwd/server')
+
+server.post('/', (req, res) => {
+  res.send({
+    id: server.uuid(),
+    created_at: server.timestamp()
+  })
+})
+
+server.start(80, __dirname)
+
+```
+
+### All Together Now
 
 ```javascript
 
