@@ -48,7 +48,7 @@ npm i @fwd/server
 ```
 
 
-## Usage
+## Server Usage (Express & EJS)
 
 
 ### Serve Static Files
@@ -117,7 +117,7 @@ server.start(80, __dirname)
 
 ```
 
-### Cache In Memory
+### Cache In Memory (memory-cache)
 
 ```javascript
 
@@ -137,7 +137,7 @@ server.cache('saying')
 
 ```
 
-### Cron
+### Cron (setInterval)
 
 ```javascript
 
@@ -153,6 +153,26 @@ server.cron(() => {
 }, "every 1 minute")
 
 ```
+
+### HTTP (Axios)
+
+```javascript
+
+const server = require('@fwd/server')
+
+// returns timestamp
+;(async () => {
+  
+  // GET
+  var page = await server.http.get('https://google.com/')
+  // POST
+  var page = await server.http.post('https://google.com/', { hello: "World" })
+  // Etc.
+
+})()
+
+```
+
 
 ### Timestamp
 
@@ -190,7 +210,6 @@ server.time(1, 'hour')
 // returns 3600000
 
 ```
-
 
 ### And More Coming Soon
 
