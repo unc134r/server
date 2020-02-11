@@ -47,6 +47,14 @@ We're looking for help maintaning, improving and organizing this package.
 npm i @fwd/server
 ```
 
+## Use
+
+```javascript
+node index
+// or
+pm2 start index
+```
+
 
 ## Server Usage (Express & EJS)
 
