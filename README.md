@@ -65,14 +65,15 @@ server.start(80, __dirname)
 
 const server = require('@fwd/server')
 
-// Get
-server.cache('key')
-
 // Store
-server.cache('key', value)
-
+server.cache('saying', "wubba lubba dub dub")
+// OR
 // Store With Expiration
 server.cache('key', value, 10000)
+
+// Get
+server.cache('saying')
+/// wubba lubba dub dub
 
 ```
 
@@ -98,7 +99,6 @@ server.cron(() => {
 ```javascript
 
 const server = require('@fwd/server')
-
 
 server.timestamp()
 
