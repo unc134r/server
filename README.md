@@ -43,10 +43,17 @@ npm i @fwd/server
 
 const server = require('@fwd/server')
 
-// static server in 4 lines
 server.get('/', (req, res) => {
   res.send("Hey, Sexy!")
 })
+
+server.post('/', (req, res) => {
+  res.send({
+    id: server.uuid(),
+    created_at: server.timestamp()
+  })
+})
+
 server.start(80, __dirname)
 
 
