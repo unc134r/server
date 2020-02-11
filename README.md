@@ -56,7 +56,7 @@ pm2 start index
 ```
 
 
-## Server Usage (Express & EJS)
+## Examples (Express & EJS)
 
 
 ### Serve Static Files
