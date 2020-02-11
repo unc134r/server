@@ -84,7 +84,7 @@ const server = require('@fwd/server')
 
 // Run Cron
 server.cron(() => {
-
+  console.log("I'm four hours older, woohoo!")
 }, "every 4 hours")
 
 ```
@@ -95,9 +95,10 @@ server.cron(() => {
 
 const server = require('@fwd/server')
 
-// static server in 4 lines
+
 server.timestamp()
 
+// Change format
 server.timestamp('LL')
 
 ```
