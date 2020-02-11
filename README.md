@@ -174,7 +174,7 @@ const server = require('@fwd/server')
 ```
 
 
-### Timestamp
+### Timestamp (Moment)
 
 ```javascript
 
@@ -189,7 +189,7 @@ server.timestamp('LL')
 ```
 
 
-### UUID
+### UUID (Native Function)
 
 ```javascript
 
@@ -200,7 +200,7 @@ server.uuid()
 
 ```
 
-### Time in Milliseconds
+### Time in Milliseconds (Basic Math)
 
 ```javascript
 
