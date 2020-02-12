@@ -6,8 +6,6 @@ const cache = require('memory-cache')
 const app = express();
 const axios = require('axios');
 
-var multer  = require('multer')
-
 app.use(cors())
 
 app.use(express.json({limit: '100mb'}))
